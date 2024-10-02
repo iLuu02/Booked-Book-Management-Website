@@ -1,0 +1,14 @@
+runtime: php74
+
+handlers:
+#Serve images as static resources.
+- url: /(.+\.(gif|png|jpg|css|js))$
+  static_files: public/\1
+  upload: .+\.(gif|png|jpg|css|js)$
+
+# Serve php scripts.
+- url: .*
+  script: auto
+
+runtime_config:
+  document_root: public

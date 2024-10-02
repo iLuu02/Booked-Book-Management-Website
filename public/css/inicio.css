@@ -1,0 +1,49 @@
+section .main {
+  margin-top: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+
+section .main h1 {
+  position: relative;
+  font-size: 55px;
+  font-weight: lighter;
+  top: 60px;
+  left: 25px;
+  bottom: 60px;
+  font-family: Arial;
+}
+
+section .main h1 span {
+  color: #089da1;
+}
+
+section .main p {
+  width: 650px;
+  text-align: justify;
+  line-height: 22px;
+  position: relative;
+  top: 60px;
+  left: 25px;
+  font-family: Arial;
+}
+
+section .main .main_tag .main_btn {
+  background: #089da1;
+  padding: 10px 20px;
+  position: relative;
+  top: 100px;
+  left: 25px;
+  color: #fff;
+  text-decoration: none;
+  font-family: Arial;
+}
+
+section .main .main_img img {
+  width: 780px;
+  position: relative;
+  top: 70px;
+  left: 20px;
+}

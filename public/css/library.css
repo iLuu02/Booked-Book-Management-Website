@@ -1,0 +1,35 @@
+.back-color {
+    background-color: palevioletred !important;
+}
+
+.main-margin {
+    margin-top: 175px;
+    margun
+}
+
+.vertical-line {
+    width: 1px;
+    height: 100%;
+    background-color: lightgray;
+    margin: auto;
+}
+
+.cover-size{
+    width: 60px;
+    height: 90px;
+}
+
+.review-positiva-library{
+    font-size: 10px;
+    color:#E87400;
+  }
+  
+  .review-negativa-library{
+    font-size: 10px;
+    color:#C7C7C7;
+  }
+
+  .delete_book,
+  .show_bin{
+    cursor: pointer;
+  }

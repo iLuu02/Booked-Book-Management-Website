@@ -1,0 +1,134 @@
+.sidebar {
+  position: fixed;
+  top: 50px;
+  width: 200px;
+  height: 600px;
+  background-color: #fff8ff;
+  color: rgb(0, 0, 0);
+  margin-top: 90px;
+  border-right: 2px solid #ccc;
+}
+
+.sidebar ul {
+  background-color: #fff8ff;
+  margin-top: 10px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  background-color: #fff8ff;
+  padding: 15px;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 15px;
+
+}
+
+.sidebar li a {
+  text-decoration: none;
+  color: black;
+}
+
+.sidebar li a:hover,
+.sidebar .has-submenu li a:hover {
+  color: #07878b;
+}
+
+.sidebar .has-submenu li {
+  font-weight: lighter;
+  font-size: 14px;
+  margin-top: -15px;
+  transition: color 0.3s;
+}
+
+.sidebar .has-submenu li a {
+  font-family: Arial;
+  text-decoration: none;
+  color: black;
+}
+
+
+.grid-item p {
+  font-size: 15px;
+  font-family: Arial;
+  font-weight: bold;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.grid-item i {
+  font-size: 13px;
+  font-family: Arial;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.book-area {
+  margin-left: 230px;
+  margin-top: 150px;
+
+}
+
+.book-area img {
+  width: 175px;
+  /* Ancho de cada columna */
+  height: 250px;
+  /* Alto de cada columna */
+}
+
+.grid-container {
+  margin-left: 75px;
+  margin-right: 75px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 80px
+    /* Ajusta los valores para reducir la separación entre filas y columnas */
+}
+
+.grid-item {
+  box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.4);
+  /* Ajusta los valores para personalizar la sombra */
+  width: 175px;
+  /* Ancho de cada columna */
+  height: 250px;
+  /* Alto de cada columna */
+  cursor: pointer;
+}
+
+.grid-item p,
+.grid-item i {
+  text-decoration: none;
+  color: black;
+}
+
+.grid-item p:hover,
+.grid-item i:hover {
+  text-decoration: none;
+}
+
+.section-title {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.section-title p {
+  color: rgb(23, 23, 23);
+  font-family: Arial;
+  font-size: 40px;
+  display: inline-block;
+  background-color: #fff;
+  /* Cambia el color de fondo según tus necesidades */
+  padding-right: 10px;
+}
+
+.section-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: rgb(23, 23, 23);
+  /* Cambia el color de la línea según tus necesidades */
+}

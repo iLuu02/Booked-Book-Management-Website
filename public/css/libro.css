@@ -1,0 +1,36 @@
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+.margin{
+  margin-top: 200px !important;
+}
+
+.review-positiva{
+  font-size: 30px;
+  color:#E87400;
+}
+
+.review-negativa{
+  font-size: 30px;
+  color:#C7C7C7;
+}
+
+.btn-custom {
+  background-color: #089da1 !important; /* Color personalizado */
+  color: #ffffff !important; /* Color del texto */
+}
+
+.btn-custom:hover {
+  background-color: #07878b !important; /* Color personalizado */
+  color: #ffffff !important; /* Color del texto */
+}
+
+.book-cover {
+  width: 250px;
+  height: 350px;
+  object-fit: cover;
+}
+
